@@ -1,0 +1,7 @@
+{
+  "name": "appConverse",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
