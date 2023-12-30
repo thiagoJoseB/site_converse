@@ -20,7 +20,7 @@ export class HomePage implements OnInit {
 
   bannner = [
     'assets/nnn.svg',
-    'assets/mmm.svg',
+    'assets/b-image.svg',
     'assets/banner-5.jpg',
     'assets/banner-6.webp',
      
