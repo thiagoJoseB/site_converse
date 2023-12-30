@@ -45,7 +45,8 @@
   
     .caixa-input {
       width: 100%;
-      
+      padding-left: 3vw;
+      padding-right: 3vw;
       margin-top: 2vw;
   
   
@@ -145,7 +146,7 @@
     
   }
   
-  @media screen and (max-width: 768px ) {
+  @media screen and (max-width: 768px) {
     .container-web{
       display: none;
     }

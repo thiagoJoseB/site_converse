@@ -12,15 +12,15 @@ export class HomePage implements OnInit {
   images = [
  
   'assets/new4.jpg',
-  'assets/ban-con.png',
- 'assets/new1.webp'
+  'assets/bb-con.svg',
+ 'assets/new-all.svg'
    
     // Adicione mais URLs de imagem conforme necessário
   ];
 
   bannner = [
-    'assets/banner-4.webp',
-    'assets/bannerew.jpg',
+    'assets/nnn.svg',
+    'assets/mmm.svg',
     'assets/banner-5.jpg',
     'assets/banner-6.webp',
      

@@ -1,5 +1,6 @@
 .conteudo {
     font-family: cursive;
+
     .cabecario {
         width: 100%;
         min-height: 18vh;
@@ -14,26 +15,29 @@
 
             .menu {
                 width: 69%;
-                height: 9vh;
+                min-height: 9vh;
                 background-color: black;
                 font-family: Arial;
                 margin: auto;
-                transition: background-color 0.3s ease; 
+                transition: background-color 0.3s ease;
+
                 ul {
                     list-style: none;
                     position: relative;
-                    margin: 0;
-                    padding-top: 10px;
+                    // margin: 0;
+                    padding-top: 6px;
+                    min-height: 9vh;
+                   
                 }
 
                 li {
                     width: 10.5vw;
                     float: left;
-                    height: 37px;
+                    min-height: 37px;
                     background-color: black;
                     text-align: center;
                     margin-left: 4vw;
-                    padding-top: 7px;
+                    // padding-top: 7px;
                     color: white;
                     font-size: 16px;
 
@@ -42,7 +46,7 @@
             }
 
 
-            .menu ul li:hover{
+            .menu ul li:hover {
                 background-color: white;
                 color: black;
                 cursor: pointer;
@@ -62,7 +66,7 @@
                 height: 9vh;
                 background-color: black;
 
-                img{
+                img {
                     width: 14vw;
                     height: 7vh;
                     margin-top: 1vw;
@@ -101,7 +105,7 @@
                 height: 9vh;
                 background-color: black;
 
-                img{
+                img {
                     width: 2vw;
                     height: 4vh;
                     margin-left: 6vw;
@@ -109,7 +113,7 @@
                 }
 
 
-            
+
 
             }
 
@@ -120,21 +124,23 @@
 
     .banner {
         width: 100%;
-        height: 70vh;
+        height: 68vh;
         background-color: black;
-        overflow: hidden; /* Oculta as imagens que saem da área visível */
+        overflow: hidden;
+        /* Oculta as imagens que saem da área visível */
 
 
-          .carousel-banner {
+        .carousel-banner {
             width: 100%;
             display: flex;
-            transition: transform 0.5s ease-in-out; /* Adiciona uma transição suave ao movimento do carrossel */
-          }
-          
+            transition: transform 0.5s ease-in-out;
+            /* Adiciona uma transição suave ao movimento do carrossel */
+        }
 
-        img{
+
+        img {
             width: 100%;
-             height: inherit;
+            height: inherit;
         }
     }
 
@@ -143,9 +149,9 @@
         background-color: white;
         width: 100%;
         height: 12vh;
-        display:flex;
+        display: flex;
 
-        .infos{
+        .infos {
             width: 34%;
             height: inherit;
             background-color: black;
@@ -153,20 +159,20 @@
             padding-left: 5vw;
             padding-top: 0.7vw;
 
-            .descricao{
+            .descricao {
                 width: 17vw;
                 height: 3vh;
                 padding-left: 1vw;
                 color: white;
-                
+
             }
 
-            .img{
+            .img {
                 height: 10vh;
                 width: 12vh;
                 margin-top: 1vw;
-                
-                img{
+
+                img {
                     width: 2vw;
                     height: 4vh;
                     margin-left: 2vw;
@@ -190,47 +196,47 @@
 
         }
 
-        .caixa-produto{
-         width: 100%;
-         min-height: 60vh;
-         display: flex;
-        
+        .caixa-produto {
+            width: 100%;
+            min-height: 60vh;
+            display: flex;
+
         }
 
-        .card{
+        .card {
             width: 32%;
             min-height: 44vh;
-            
+
             margin: auto;
 
-            .img-card{
+            .img-card {
                 width: 12vw;
                 height: 20vh;
-                background-color: black;
+                // background-color: black;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 1vw;
                 margin-bottom: -1vw;
-              
+
 
             }
 
-            .info{
-                margin-left: auto;     
-                margin-right: auto;     
-                width: 16vw;     
+            .info {
+                margin-left: auto;
+                margin-right: auto;
+                width: 16vw;
                 min-height: 12vh;
                 // height: 8vw;
-                
 
-                .descricao{
+
+                .descricao {
                     width: 100%;
                     margin: auto;
                     min-height: 10vh;
-                    font-family:cursive;
+                    font-family: cursive;
                 }
 
-                .titulo{
+                .titulo {
                     font-size: 14px;
                     font-weight: bold;
                     font-family: cursive;
@@ -238,8 +244,8 @@
 
                 }
 
-               
-                .botao{
+
+                .botao {
                     width: 9vw;
                     height: 2vw;
                     background-color: #000;
@@ -251,14 +257,14 @@
                     margin-left: auto;
                     margin-right: auto;
 
-                    label{
-                       color: white;
-                       font-family: cursive;
+                    label {
+                        color: white;
+                        font-family: cursive;
                     }
                 }
             }
 
-           
+
         }
 
 
@@ -267,56 +273,61 @@
 
     .confira {
         width: 100%;
-        overflow: hidden; /* Oculta as imagens que saem da área visível */
+        overflow: hidden;
+        /* Oculta as imagens que saem da área visível */
         height: 45vh;
 
-       
-      }
-      
-      .carousel {
+
+    }
+
+    .carousel {
         width: 100%;
         display: flex;
-        transition: transform 0.5s ease-in-out; /* Adiciona uma transição suave ao movimento do carrossel */
-      }
-      
-      .carousel-item {
+        transition: transform 0.5s ease-in-out;
+        /* Adiciona uma transição suave ao movimento do carrossel */
+    }
+
+    .carousel-item {
         width: 100%;
         height: 45vh;
-        object-fit: cover; /* Garante que a imagem cubra todo o contêiner */
-      }
-      
+        object-fit: cover;
+        /* Garante que a imagem cubra todo o contêiner */
+    }
 
-    .row-estilo{
+
+    .row-estilo {
         display: flex;
 
         .row-card {
             width: 25%;
-            overflow: hidden; 
-        
-          }
-          
-          .row-card img {
+            overflow: hidden;
+
+        }
+
+        .row-card img {
             height: 70vh;
-            width: 100%; /* Alterei o width para 100% para que as imagens ocupem a largura completa do container .row-card */
+            width: 100%;
+            /* Alterei o width para 100% para que as imagens ocupem a largura completa do container .row-card */
             transition: filter 0.5s;
-          }
-          
-          .row-card:hover img {
+        }
+
+        .row-card:hover img {
             filter: grayscale(100%);
             // filter: hue-rotate(90deg);
             // filter: sepia(50%);
             // filter: invert(0%);
-            transform: scale(1.2); 
-          }
-          
+            transform: scale(1.2);
+        }
+
 
     }
 
 
-    .informacoes{
+    .informacoes {
         width: 100%;
         height: 50vh;
-        
+        margin-top:3vw;
+
         .explore-converse {
             text-align: center;
             margin-top: 0vw;
@@ -326,108 +337,141 @@
 
         }
 
-        .box-converse{
+        .box-converse {
             display: flex;
             width: 100%;
             height: 40vh;
+            margin-top: 1vw;
 
 
-            .info-converse{
+            .info-converse {
                 width: 25%;
                 height: 30vh;
                 // background-color: black;
                 margin: 2vw auto 0px 22vw;
 
 
-               .converse{
-                width: 12vw;
-                height: 20vh;
-                margin: 2vw auto auto auto;
-
-                img{
+                .converse {
                     width: 12vw;
-                    height: 14vh;
+                    height: 20vh;
+                    margin: 2vw auto auto auto;
+
+                    img {
+                        width: 12vw;
+                        height: 14vh;
+                    }
+
+                    p {
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+
                 }
 
-                p{
+            }
+
+            .redes {
+                width: 25%;
+                height: 30vh;
+                margin: 2vw 22vw 0px auto;
+
+                .conteudo {
+                    height: 19vh;
+                    width: 100%;
+                    display: flex;
+
+                    .converse1 {
+                        width: 50%;
+                        height: 9vh;
+                        margin-top: 3vw;
+
+
+                        .img {
+                            width: 3vw;
+                            height: 8vh;
+                            margin-left: 7vw;
+                        }
+
+                        .img-2 {
+                            width: 4vw;
+                            height: 8vh;
+                            margin-left: 2vw;
+
+                        }
+
+                    }
+
+
+
+                }
+
+                p {
                     text-align: center;
                     font-size: 20px;
                     font-weight: bold;
                 }
 
-               }
+            }
+        }
+
+
+
+    }
+
+    .roda-pe {
+        width: 100%;
+        height: 27vh;
+        background-color: black;
+
+        .logo {
+            width: inherit;
+            height: 13vh;
+            background-color: gray;
+            padding-right: 2vw;
+            padding-top: 0.5vw;
+
+
+            .img-logo{
+                width: 10vw;
+                height: 12vh;
+                float: right;
+
+                img {
+                    width: 8vw;
+                    height: 10vh;
+                }
+
                 
             }
-    
-            .redes{
-                width: 25%;
-                height: 30vh;
-                margin: 2vw 22vw 0px auto;
+        }
 
-              .conteudo{
-                height: 19vh;
-                width: 100%;
-                display: flex;
+        .info {
+            width: inherit;
+            height: 13vh;
+            background-color: black;
+            padding-left: 2vw;
+
+
+            .titulo{
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
                 
-                .converse1{
-                    width: 50%;
-                    height: 9vh;
-                    margin-top:3vw;
-                 
 
-                    .img{
-                        width: 7vw;
-                        height: 8vh;
-                        margin-left: 4vw;
-                    }
+            }
 
-                    .img-2{
-                        width: 4vw;
-                        height: 8vh;
-                        margin-left: 3vw;
-
-                    }
-    
-                 }
-
-            
-    
-              }
-
-              p{
-                text-align: center;
+            p{
+                color: #585858;
                 font-size: 20px;
                 font-weight: bold;
             }
 
-            }
         }
 
-      
-
     }
 
-    .roda-pe{
-        width: 100%;
-        height: 30vh;
-        background-color: black;
-      
-       .logo{
-        width: inherit;
-        height: 15vh;
-        background-color: gray;
-       }
 
-       .info{
-        width: inherit;
-        height: 15vh;
-        background-color: black;
-
-       }
-
-    }
-
-   
 
 
 
