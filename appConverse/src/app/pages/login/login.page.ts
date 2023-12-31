@@ -24,5 +24,10 @@ export class LoginPage implements OnInit {
 
   }
 
+  esqueciSenha(){
+    window.location.href = "esqueci-senha-email-etapa-um";
+
+  }
+
 
 }
