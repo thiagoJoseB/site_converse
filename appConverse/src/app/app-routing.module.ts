@@ -19,7 +19,11 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
+  },  {
+    path: 'esqueci-senha-email-etapa-um',
+    loadChildren: () => import('./pages/esqueci-senha-email-etapa-um/esqueci-senha-email-etapa-um.module').then( m => m.EsqueciSenhaEmailEtapaUmPageModule)
   },
+
 ];
 
 @NgModule({
