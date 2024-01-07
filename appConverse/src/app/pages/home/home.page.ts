@@ -19,11 +19,9 @@ export class HomePage implements OnInit {
   ];
 
   bannner = [
-    'assets/nnn.svg',
-    'assets/b-image.svg',
     'assets/banner-5.jpg',
-    'assets/banner-6.webp',
-     
+    'assets/foto-123.jpg',
+    'assets/banner-2.webp'
       // Adicione mais URLs de imagem conforme necessário
     ];
   
