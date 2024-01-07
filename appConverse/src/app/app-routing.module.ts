@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'esqueci-senha-email-etapa-um',
     loadChildren: () => import('./pages/esqueci-senha-email-etapa-um/esqueci-senha-email-etapa-um.module').then( m => m.EsqueciSenhaEmailEtapaUmPageModule)
   },
+  {
+    path: 'esqueci-senha-email-etapa-dois',
+    loadChildren: () => import('./pages/esqueci-senha-email-etapa-dois/esqueci-senha-email-etapa-dois.module').then( m => m.EsqueciSenhaEmailEtapaDoisPageModule)
+  },
 
 ];
 
