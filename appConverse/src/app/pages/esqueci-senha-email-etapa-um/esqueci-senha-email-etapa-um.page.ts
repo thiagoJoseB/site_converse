@@ -12,4 +12,10 @@ export class EsqueciSenhaEmailEtapaUmPage implements OnInit {
   ngOnInit() {
   }
 
+
+  esqueciSenha(){
+    window.location.href = "esqueci-senha-email-etapa-dois";
+
+  }
+
 }
